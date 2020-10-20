@@ -20,18 +20,19 @@ a {color: #565267;}
 .sectionHeadingFullPart .sectionHeading {font-size: 28px;line-height: 42px;color: #222222;font-weight: 500;}
 .sectionHeadingFullPart p {margin-top: 20px;}
 
-
 /* Header */
-.siteHeader {padding: 20px 0;background: #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);}
+.siteHeader{padding:20px 0;background:#FFFFFF;box-shadow:0px 4px 4px rgba(0,0,0,0.05);position:fixed;width:100%;z-index:9999;top:0;}
 .siteHeader .headerWrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;}
 .siteHeader .headerWrap .headerLogo a{display:flex;}
 .siteHeader .headerWrap .headerMenu ul{display:flex;align-items:center;flex-wrap:wrap;}
 .siteHeader .headerWrap .headerMenu ul li {margin-left: 50px;}
 .siteHeader .headerWrap .headerMenu ul li:first-child{margin-left: 0;}
 .siteHeader .headerWrap .headerMenu ul li a {color: #000000;}
+.siteHeader.headerSticky{animation-duration:1s;transition:all 0.5s;animation-name:headerDown;padding:10px 0;}
+@keyframes headerDown {0% {transform: translate3d(0px, -100%, 0px);}100% {transform: translate3d(0px, 0px, 0px);}}
 
 /* Toggle Menu Line */
-.siteHeader .headerMenu .menu-handler{display:none;height:30px;width:30px;margin:15px 0 0 auto;}
+.siteHeader .headerMenu .menu-handler{display:none;height:30px;width:30px;margin:10px 0 0 auto;}
 .siteHeader .headerMenu .menu-handler span{background-color:#000000;float:left;height:2px;margin-bottom:5px;width:75%;}
 
 /* Fotoer */
@@ -39,7 +40,7 @@ a {color: #565267;}
 .siteFooter p{font-weight:normal;font-size:14px;line-height:21px;}
 
 /* Home Banner */
-.homeBannerSection {position: relative;}
+.homeBannerSection {position: relative;margin-top: 100px;}
 .homeBannerSection .bannerWrap {display: flex;flex-wrap: wrap;padding: 60px 0;position: relative;}
 .homeBannerSection .bannerWrap .bannerHeading{font-weight:bold;font-size:64px;line-height:80px;color:#000000;}
 .homeBannerSection .bannerWrap .leftPart p{font-weight:normal;font-size:18px;color:#626366;margin-top: 38px;}
@@ -107,23 +108,38 @@ a {color: #565267;}
 
 /* Media Query */
 @media(min-width:1921px){
+    /* Home Banner */
     .homeBannerSection:before {width: 29%;}
 }
 @media(min-width:2800px){
+    /* Home Banner */
     .homeBannerSection:before {width: 34%;}
 }
 
 @media (max-width: 1500px){
+    /* Home Banner */
     .homeBannerSection:before {width: 15%;}
     .homeBannerSection .bannerDotLineImg {top: 30px;width: 60%;height: auto;}
+    .homeBannerSection .bannerWrap .bannerHeading {font-size: 50px;line-height: 65px;}
+
 }
 
 @media(max-width: 1279px){
-    .secTopBotPad {padding-top: 60px;padding-bottom: 60px;}
+    .secTopBotPad {padding-top: 50px;padding-bottom: 50px;}
     .container {max-width: 960px;}
+
+    /* Header */
+    .siteHeader .headerWrap .headerMenu ul li {margin-left: 25px;}
+
+    /* Home Banner */
+    .homeBannerSection .bannerWrap .bannerHeading {font-size: 40px;line-height: 50px;}
+    .homeBannerSection .bannerWrap .leftPart p{margin-top:20px;font-size:16px;}
+    .homeBannerSection .bannerFractoText{font-size:70px;}
+    .homeBannerSection .bannerWrap .rightPart:before{display: none;}
 
     /* Home About Section */
     .homeAboutSection .homeAboutWrap .rightPart {padding-left: 50px;}
+    .homeAboutSection {padding-top: 0;}
 
     /* Technology Left Silder Slider */
     .technologyLeftSlider .techSlideHead {width: 100%;margin-bottom: 50px;}
@@ -131,9 +147,37 @@ a {color: #565267;}
 }
 
 @media(max-width: 1023px){
+    .container {max-width: 720px;}
     .secTopBotPad {padding-top: 30px;padding-bottom: 30px;}
+    .sectionHeadingFullPart p br{display: none;}
+
+    /* Header */
+    .siteHeader {padding: 10px 0;}
+    .siteHeader.headerSticky {animation: none;}
+    .siteHeader .headerWrap .headerMenu ul{display:none;position:absolute;left:0;right:0;top:80px;background-color:#249f8d;}
+    .siteHeader .headerMenu .menu-handler {display: block;}
+    .siteHeader .headerWrap .headerMenu ul li{margin-left:0;}
+    .siteHeader .headerWrap .headerMenu ul li a {display: block;padding: 10px 20px;border-bottom: 1px solid rgb(255 255 255 / 30%);color: #fff;}
+
+    .siteHeader .headerMenu .menu-handler span {-webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s linear;transition: top 0.2s linear 0.2s, -webkit-transform 0.2s linear;-o-transition: transform 0.2s linear, top 0.2s linear 0.2s;transition: transform 0.2s linear, top 0.2s linear 0.2s;transition: transform 0.2s linear, top 0.2s linear 0.2s, -webkit-transform 0.2s linear;}
+    .siteHeader .headerMenu .menu-handler.toggleActive span:nth-child(1){-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);-webkit-transition:all 0.2s linear,-webkit-transform 0.2s linear 0.2s;transition:all 0.2s linear,-webkit-transform 0.2s linear 0.2s;-o-transition:all 0.2s linear,transform 0.2s linear 0.2s;transition:all 0.2s linear,transform 0.2s linear 0.2s;transition:all 0.2s linear,transform 0.2s linear 0.2s,-webkit-transform 0.2s linear 0.2s;margin-bottom:0;}
+    .siteHeader .headerMenu .menu-handler.toggleActive span:nth-child(2){background-color:transparent;-webkit-transition:all 0.2s linear;-o-transition:all 0.2s linear;transition:all 0.2s linear;margin-bottom:0;}            
+    .siteHeader .headerMenu .menu-handler.toggleActive span:nth-child(3){top:0;-webkit-transition:all 0.2s linear,-webkit-transform 0.2s linear 0.2s;transition:all 0.2s linear,-webkit-transform 0.2s linear 0.2s;-o-transition:all 0.2s linear,transform 0.2s linear 0.2s;transition:all 0.2s linear,transform 0.2s linear 0.2s;transition:all 0.2s linear,transform 0.2s linear 0.2s,-webkit-transform 0.2s linear 0.2s;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);margin-bottom:0px;margin-top:-4px;}
+    .siteHeader .headerMenu .menu-handler.toggleActive {margin-top: 0;}
+
+    .siteHeader .headerMenu .menu-handler{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+
+
+    /* Home Banner */
+    .homeBannerSection {margin-top: 80px;}
+    .homeBannerSection .bannerWrap .bannerMainImg {padding: 0;}
+    .homeBannerSection .bannerWrap .leftPart{padding-right:30px;}
+    .homeBannerSection .bannerWrap .bannerHeading{font-size:35px;line-height:45px;}
+    .homeBannerSection .bannerFractoText{font-size:60px;line-height:1;}
+    .homeBannerSection .bannerWrap{padding:30px 0;}
 
     /* Home About Section */
+    .homeAboutSection{padding-top:0;}
     .homeAboutSection .homeAboutWrap > div {width: 100%;}
     .homeAboutSection .homeAboutWrap {-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;}
     .homeAboutSection .homeAboutWrap .rightPart {padding-left: 0;margin-bottom: 30px;}
@@ -152,17 +196,35 @@ a {color: #565267;}
 
     /* About Upcoming Opp Section */
     .aboutUpcomingOppSection .comingOppMain .leftPart {width: 100%;padding-right: 0;}
-    .aboutUpcomingOppSection .comingOppMain .rightPart {width: 100%;margin-bottom: 40px;}
+    .aboutUpcomingOppSection .comingOppMain .rightPart {width: 100%;justify-content: center;}
     .aboutUpcomingOppSection .comingOppMain .rightPart img {width: 70%;}
-    .aboutUpcomingOppSection .comingOppMain {-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;}
     .aboutUpcomingOppSection .comingOppNumber .numberBox {margin-bottom: 40px;}
     .aboutUpcomingOppSection .comingOppMain .leftPart .siteBtn {margin-top: 40px;}
+
+    /* Testimonial */
+    .homeTestimonialSection .testimonailMainWrap {margin-top: 80px;margin-bottom: 20px;}
+    .homeTestimonialSection .testimonailMainWrap .testiBox:first-child, .homeTestimonialSection .testimonailMainWrap .testiBox:last-child {margin-top: 0;}
+    .homeTestimonialSection .testimonailMainWrap .testiBox {margin-bottom: 70px;width: 100%;padding: 0 20px 25px;}
+    .homeTestimonialSection .testimonailMainWrap .testiBox:last-child{margin-bottom: 0;}
+    .homeTestimonialSection .testimonailMainWrap .testiBox p {height: inherit !important;}
+    .homeTestimonialSection .testimonailMainWrap .testimonialHeading {margin-top: 15px;margin-bottom: 10px;}
 }
 
 @media(max-width:767px){
     .sectionHeadingFullPart p br{display: none;}
     .sectionHeadingFullPart .sectionHeading {font-size: 24px;line-height: 40px;}
     .sectionHeadingFullPart p {margin-top: 10px;}
+
+    /* Header */
+    .siteHeader .headerWrap .headerLogo a img {width: 40px;object-fit: cover;height: auto;object-position: center center;}
+    .siteHeader .headerWrap .headerMenu ul {top: 64px;}
+
+    /* Home Banner */
+    .homeBannerSection {margin-top: 64px;}
+    .homeBannerSection .bannerWrap .bannerHeading {font-size: 28px;line-height: 40px;}
+    .homeBannerSection .bannerWrap .leftPart p {margin-top: 10px;}
+    .homeBannerSection .bannerFractoText {font-size: 50px;}
+
     /* Why Invest Fractoprop */
     /* .whyInvestHome .memberBoxWrap .memberBox .memberContent{display:none;} */
     .whyInvestHome .memberSubHead{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}
@@ -172,20 +234,37 @@ a {color: #565267;}
     /* Technology Left Silder Slider */
     .technologyLeftSlider .siteYellowBtn {margin-top: 10px;}
     .technologyLeftSlider .techSlideHead {margin-bottom: 30px;}
+    .technologyLeftSlider .techMainPart .leftPart {margin-bottom: 40px;}
 }
 
 @media(max-width:567px){
+    .sectionHeadingFullPart .sectionHeading {font-size: 22px;line-height: 40px;}
+
+    /* Home Banner */
+    .homeBannerSection:before{display: none;}
+    .homeBannerSection .bannerWrap .leftPart{width:100%;padding-right:0;margin-top:20px;}
+    .homeBannerSection .bannerWrap .rightPart {width: 100%;}
+    .homeBannerSection .bannerWrap {flex-direction: column-reverse;padding-bottom: 65px;}
+
+    /* Home About Section */
+    .homeAboutSection {padding-top: 30px;}
+
     /* Why Invest Fractoprop */
     .whyInvestHome .memberBoxWrap{margin-left:0;margin-right:0;}
     .whyInvestHome .memberBoxWrap .memberBox {width: 100%;margin-left: 0;margin-right: 0;margin-top: 0;margin-bottom: 20px;}
+    .whyInvestHome .memberBoxWrap .memberBox:last-child {margin-bottom: 0;}
 
     /* Technology Left Silder Slider */
     .technologyLeftSlider .techMainPart .leftPart .techSliderImg img {width: 100%;margin: 0 auto;}
     .technologyLeftSlider .techMainPart .rightPart .techRightBox {width: 100%;margin-left: 0;margin-right: 0;margin-bottom: 25px;}
+    .technologyLeftSlider .techMainPart .rightPart .techRightBox:last-child {margin-bottom: 0;}
 
     /* About Upcoming Opp Section */
     .aboutUpcomingOppSection .comingOppMain .rightPart img{width:100%;}
-    .aboutUpcomingOppSection .comingOppMain .rightPart{margin-bottom:30px;}
+    .aboutUpcomingOppSection .comingOppMain .rightPart{margin-top:30px;}
     .aboutUpcomingOppSection .comingOppNumber .numberBox{width:100%;margin-bottom:30px !important;}
     .aboutUpcomingOppSection .comingOppNumber .numberBox:last-child{margin-bottom:0 !important;}
+    .aboutUpcomingOppSection .comingOppMain .leftPart .sectionHeadingFullPart .sectionHeading {margin-bottom: 10px;}
+    .aboutUpcomingOppSection .comingOppNumber .numberBox .appNumberHead {font-size: 16px;line-height: 25px;}
+    .aboutUpcomingOppSection .comingOppNumber .numberBox span {font-size: 55px;}
 }
