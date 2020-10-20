@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     // Site Equal Height Jquery
     equalize = function(container){
         var maxHeight = 0;
