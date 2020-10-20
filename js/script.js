@@ -15,5 +15,16 @@ $(document).ready(function(){
     $(window).resize(function(){
         equalize('.homeTestimonialSection .testimonailMainWrap .testiBox p');
     });
+
+    // Home Technology Part Slider   
+    $('.technologyLeftSlider .leftTechSlider').slick({
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
     
 });
