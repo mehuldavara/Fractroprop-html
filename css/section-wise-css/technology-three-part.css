@@ -1,0 +1,68 @@
+.technologySection {padding-top: 100px;padding-bottom: 100px;}
+.technologySection .technoWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom: 195px;}
+.technologySection .technoWrap .leftPart{width:50%;padding-right: 100px;}
+.technologySection .technoWrap .rightPart{width:50%;text-align:right;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;padding-left: 30px;}
+.technologySection .technoWrap .leftPart p{line-height:28px;margin-top:20px;}
+.technologySection .technoWrap .rightPart img {width: 100%;}
+.technologySection .technoWrap:nth-child(2n){-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+.technologySection .technoWrap:nth-child(2n) .leftPart{padding-right:0;padding-left:100px;}
+.technologySection .technoWrap:nth-child(2n) .rightPart{padding-left:0;padding-right:30px;}
+.technologySection .technoWrap:last-child{margin-bottom:0;}
+.technologySection .technoWrap .leftPart .siteBtn {margin-top: 30px;}
+
+/* Map */
+.technologySection .technoWrap .rightPart #map {height: 424px;width: 100%;}
+
+/* Collab Landing Page */
+.collabLandingTechSection .technoWrap:nth-child(2n) {margin-bottom: 0;}
+.collabLandingTechSection {padding-top: 60px;}
+
+/* Collab Allied Service */
+.collabAlliedTechnology .technoWrap .rightPart{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+.collabAlliedTechnology .technoWrap .rightPart img{width:auto;}
+
+/* Accel Landing Page */
+.technologySection .technoWrap .leftPart p strong {display: block;}
+
+@media(max-width:1500px){
+    
+}
+
+@media(max-width:1279px){
+    .technologySection {padding-top: 60px;padding-bottom: 60px;}
+    .technologySection .technoWrap {margin-bottom: 50px;}
+    .technologySection .technoWrap .leftPart{padding-right:50px;}
+    .technologySection .technoWrap .rightPart{padding-left:50px;}
+    .technologySection .technoWrap:nth-child(2n) .leftPart{padding-left:50px;}
+    .technologySection .technoWrap:nth-child(2n) .rightPart{padding-right:50px;}
+}
+
+@media(max-width:1023px){
+    .technologySection {padding-top: 30px;padding-bottom: 30px;}
+    .technologySection .technoWrap .leftPart{padding-right:20px;}
+    .technologySection .technoWrap .leftPart br{display:none;}
+    .technologySection .technoWrap .rightPart{padding-left:20px;}
+    .technologySection .technoWrap:nth-child(2n) .leftPart{padding-left:20px;}
+    .technologySection .technoWrap:nth-child(2n) .rightPart{padding-right:20px;}
+    .technologySection .technoWrap {margin-bottom: 30px;}
+
+    /* Collab */
+    /* Landing Page */
+    .collabLandingTechSection .technoWrap:nth-child(2n) {margin-bottom: 30px;}
+}
+
+@media(max-width:767px){
+    .technologySection .technoWrap .leftPart{width:100%;padding-right:0;margin-bottom:25px;}
+    .technologySection .technoWrap .rightPart{width:100%;padding-left:0;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+    .technologySection .technoWrap .leftPart p{margin-top:15px;}
+    .technologySection .technoWrap:nth-child(2n) .leftPart{padding-left:0;}
+    .technologySection .technoWrap:nth-child(2n) .rightPart{padding-right:0;}
+    .technologySection .technoWrap .rightPart img{width:70%;margin:0 auto;}
+
+    /* Collab Allied Service Page */
+    .collabAlliedTechnology .technoWrap .rightPart {width: 80%;margin-left: auto;margin-right: auto;}
+}
+
+@media(max-width:567px){
+    .technologySection .technoWrap .rightPart img {width: 100%;}
+}

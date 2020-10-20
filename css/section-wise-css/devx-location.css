@@ -1,0 +1,19 @@
+.ourLocationSection {padding-top: 100px;padding-bottom: 100px;}
+.ourLocationSection .ourLocationMainBox{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
+.ourLocationSection .siteBtn{text-align:center;margin-top:50px;}
+.ourLocationSection .ourLocationMainBox .ourLocationBox {text-align: center;width: calc(100% / 6 - 0px);}
+.ourLocationSection .ourLocationMainBox .ourLocationBox .devxLocHead {font-weight: 600;font-size: 18px;line-height: 25px;color: #222222;}
+.ourLocationSection .ourLocationMainBox .ourLocationBox img {width: 160px;height: 160px;-o-object-fit: contain;object-fit: contain;-o-object-position: center center;object-position: center center;}
+@media(max-width:1279px){
+    .ourLocationSection {padding-top: 60px;padding-bottom: 60px;}
+}
+@media(max-width:1023px){
+    .ourLocationSection .ourLocationMainBox .ourLocationBox {width: calc(100% / 3 - 0px);margin-bottom: 25px;}
+    .ourLocationSection .siteBtn {margin-top: 30px;}
+    .ourLocationSection {padding-top: 30px;padding-bottom: 30px;}
+}
+@media(max-width: 767px){
+    .ourLocationSection .ourLocationMainBox .ourLocationBox{margin-bottom:15px;}
+    .ourLocationSection .ourLocationMainBox .ourLocationBox img{width:100px;height:100px;}
+    .ourLocationSection .ourLocationMainBox .ourLocationBox .devxLocHead{font-size:14px;line-height:20px;margin-top:-5px;}
+}

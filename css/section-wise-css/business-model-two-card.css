@@ -1,0 +1,37 @@
+.businessModelTwoCard {padding-top: 100px;padding-bottom: 100px;}
+.businessModelTwoCard .businessMainWrap {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.businessModelTwoCard .businessMainWrap .leftPart {width: 35%;padding-right: 70px;}
+.businessModelTwoCard .businessMainWrap .leftPart .secSubhead {margin-bottom: 20px;}
+.businessModelTwoCard .businessMainWrap .rightPart {width: 65%;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-left: -35px;margin-right: -35px;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox{width:calc(100% / 2 - 70px);-webkit-box-shadow:0px 0px 30px rgba(0,0,0,0.1);box-shadow:0px 0px 30px rgba(0,0,0,0.1);border-radius:20px;margin:0 35px;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseImg{display:-webkit-box;display:-ms-flexbox;display:flex;overflow:hidden;border-radius:20px 20px 0 0;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseContent{padding:25px 15px;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseImg img{border-radius:20px 20px 0 0;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox:hover .ourCaseImg img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseContent .ourCaseCardHead {font-weight: 600;font-size: 17px;margin-bottom: 10px;color: #222222;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseContent a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-weight:normal;font-size:14px;line-height:19px;color:#327C93;margin-top: 15px;}
+.businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseContent a img {width: auto;margin-left: 20px;}
+
+@media(max-width:1279px){
+    .businessModelTwoCard {padding-top: 60px;padding-bottom: 60px;}
+    .businessModelTwoCard .businessMainWrap .leftPart .secSubhead br {display: none;}
+    .businessModelTwoCard .businessMainWrap .leftPart .secSubhead {margin-bottom: 10px;}
+    .businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox {width: calc(100% / 2 - 30px);margin: 0 15px;}
+    .businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox {margin-left: -15px;margin-right: -15px;}
+    .businessModelTwoCard .businessMainWrap .leftPart {padding-right: 35px;}
+    
+}
+
+@media(max-width:1023px){
+    .businessModelTwoCard {padding-top: 30px;padding-bottom: 30px;}
+    .businessModelTwoCard .businessMainWrap .leftPart {width: 100%;margin-bottom: 30px;padding-right: 0;}
+    .businessModelTwoCard .businessMainWrap .rightPart {width: 100%;}
+    .businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox .ourCaseContent .ourCaseCardHead br {display: none;}    
+}
+
+@media(max-width:767px){    
+    .businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .slick-list.draggable {padding-left: 0 !important;}
+    .businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox .ourCaseBox {-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.1);box-shadow: 0px 0px 10px rgba(0,0,0,0.1);margin: 0 10px 10px;}
+    .businessModelTwoCard .businessMainWrap .rightPart .ourWorkCaseMainBox {margin-left: -10px;margin-right: -10px;}
+}

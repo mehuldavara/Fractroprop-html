@@ -1,0 +1,38 @@
+.newWorkSpaceSection{padding-top:100px;padding-bottom:100px;}            
+.newWorkSpaceSection .workspaceMain{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px;}
+.newWorkSpaceSection .workspaceBox .workspaceContent{padding:25px 15px;}
+.newWorkSpaceSection .workspaceBox .workspaceImage{display:-webkit-box;display:-ms-flexbox;display:flex;overflow: hidden;}
+.newWorkSpaceSection .workspaceBox .workspaceContent .workSpaceCardHead{font-weight:600;font-size:18px;line-height:25px;color: #222222;}
+.newWorkSpaceSection .workspaceBox .workspaceContent p{line-height:21px;margin:10px auto 30px;font-size: 14px;}
+.newWorkSpaceSection .workspaceBox .workspaceContent a{line-height:19px;color:#0057FF;}            
+.newWorkSpaceSection .workspaceBox .workspaceContent a i {font-size: 12px;margin-left: 2px;}
+.newWorkSpaceSection .workspaceMain .workspaceBox .workspaceBoxWrap{background:#FFFFFF;-webkit-box-shadow:0px 0px 30px rgba(0,0,0,0.1);box-shadow:0px 0px 30px rgba(0,0,0,0.1);border-radius:20px;overflow:hidden;}            
+.newWorkSpaceSection .workspaceMain .workspaceBoxMain .workspaceBox{margin-bottom:37px;}            
+.newWorkSpaceSection .workspaceMain .workspaceBox .workspaceBoxWrap .workspaceImage img{-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}
+.newWorkSpaceSection .workspaceMain .workspaceBox .workspaceBoxWrap:hover .workspaceImage img{-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
+.newWorkSpaceSection .workspaceBox .workspaceContent a img {margin-left: 5px;width: 7px;}
+.newWorkSpaceSection .workspaceMain .workspaceBox {width: calc(100% / 4 - 30px);margin: 0 15px 30px;}
+.newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(3), .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(4), 
+.newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(7), .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(8) {margin-top: -84px;}
+.newWorkSpaceSection .workspaceBox .workspaceImage a {display: -webkit-box;display: -ms-flexbox;display: flex;width: 100%;}
+
+
+@media(max-width: 1279px){
+    .newWorkSpaceSection {padding-top: 60px;padding-bottom: 60px;}                
+    .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(3), .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(4), 
+    .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(7), .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(8) {margin-top: -35px;}
+}
+@media(max-width:1023px){                
+    .newWorkSpaceSection .workspaceMain {margin-left: -10px;margin-right: -10px;}
+    .newWorkSpaceSection .workspaceMain .workspaceBox {width: calc(100% / 2 - 20px);margin: 0 10px 20px;}
+    .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(3), .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(4), 
+    .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(7), .newWorkSpaceSection .workspaceMain .workspaceBox:nth-child(8) {margin-top: 0px;}
+    .newWorkSpaceSection .workspaceBox .workspaceContent p{margin-bottom:25px;}
+    .newWorkSpaceSection {padding-top: 30px;padding-bottom: 30px;}
+}
+@media(max-width:767px){
+    .newWorkSpaceSection .workspaceMain .slick-list.draggable {padding-left: 0px !important;}
+    .newWorkSpaceSection .workspaceBox .workspaceContent a img {display: inline-block;}
+    .newWorkSpaceSection .workspaceMain .workspaceBox .workspaceBoxWrap {-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);box-shadow: 0px 0px 15px rgba(0,0,0,0.1);}
+    .newWorkSpaceSection .workspaceMain {margin-right: -15px;margin-bottom: -15px !important;}
+}

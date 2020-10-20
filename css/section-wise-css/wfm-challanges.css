@@ -1,0 +1,33 @@
+.wfmChallengesSection{padding-top:100px;padding-bottom:100px;}
+.wfmChallengesSection .challengesMain{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.wfmChallengesSection .challengesMain > div{width:50%;}
+.wfmChallengesSection .challengeNumber{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.wfmChallengesSection .challengeNumber .numberBox{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:calc(100% / 2 - 0px);margin-bottom: 55px;position: relative;padding-right: 15px;}
+.wfmChallengesSection .challengeNumber .numberBox span{font-weight:bold;font-size:64px;line-height:96px;color:#E1F6FD;position:absolute;left:0;}
+.wfmChallengesSection .challengeNumber .numberBox .challageNumberHead{font-weight:500;font-size:18px;line-height:27px;margin-left:20px;z-index:1;color: #222222;}
+.wfmChallengesSection .challengesMain .rightPart{padding-left:80px;}
+.wfmChallengesSection .challengeNumber .numberBox:last-child,.wfmChallengesSection .challengeNumber .numberBox:nth-last-child(2){margin-bottom:0;}
+.wfmChallengesSection .challengesMain .rightPart .challenteContent{margin-top:45px;margin-bottom:35px;}
+.wfmChallengesSection .challengesMain .leftPart {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.wfmChallengesSection .challengeNumber .numberBox .challageNumberHead br {display: none;}
+
+@media(max-width:1279px){
+    .wfmChallengesSection {padding-top: 60px;padding-bottom: 60px;}
+}
+
+@media(max-width:1023px){
+    .wfmChallengesSection {padding-top: 30px;padding-bottom: 30px;}
+    .wfmChallengesSection .challengesMain .leftPart {width: 100%;margin-bottom: 40px;}
+    .wfmChallengesSection .challengesMain .rightPart {width: 100%;padding-left: 0;}
+    .wfmChallengesSection .challengesMain .leftPart img {width: 70%;}
+    .wfmChallengesSection .challengeNumber .numberBox {margin-bottom: 40px;}
+}
+
+@media(max-width:567px){
+    .wfmChallengesSection .challengesMain .leftPart img {width: 100%;}
+    .wfmChallengesSection .challengeNumber .numberBox {width: 100%;margin-bottom: 25px !important;}
+    .wfmChallengesSection .challengeNumber .numberBox:last-child {margin-bottom: 0 !important;}
+    .wfmChallengesSection .challengesMain .rightPart .challenteContent {margin-top: 25px;margin-bottom: 20px;}
+    .wfmChallengesSection .challengesMain .leftPart {margin-bottom: 30px;}
+    .wfmChallengesSection .challengeNumber .numberBox .challageNumberHead br {display: none;}
+}

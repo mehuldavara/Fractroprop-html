@@ -1,0 +1,34 @@
+.wfmDevxAppSection{padding-top:100px;padding-bottom:100px;}
+.wfmDevxAppSection .devxAppMain{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.wfmDevxAppSection .devxAppMain > div{width:50%;}
+.wfmDevxAppSection .devxAppNumber{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.wfmDevxAppSection .devxAppNumber .numberBox{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:calc(100% / 2 - 0px);margin-bottom: 55px;position: relative;}
+.wfmDevxAppSection .devxAppNumber .numberBox span{font-weight:bold;font-size:64px;line-height:96px;color:#E1F6FD;position:absolute;left:0;}
+.wfmDevxAppSection .devxAppNumber .numberBox .devxAppNumberHead{font-weight:500;font-size:18px;line-height:27px;margin-left:20px;z-index:1;color: #222222;}
+.wfmDevxAppSection .devxAppMain .leftPart{padding-right:80px;}
+.wfmDevxAppSection .devxAppNumber .numberBox:last-child,.wfmDevxAppSection .devxAppNumber .numberBox:nth-last-child(2){margin-bottom:0;}
+.wfmDevxAppSection .devxAppMain .leftPart .devxAppContent{margin-bottom:25px;padding-right: 15px;}
+.wfmDevxAppSection .devxAppMain .rightPart {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.wfmDevxAppSection .devxAppMain .leftPart .siteBtn {margin-top: 65px;}
+
+@media(max-width:1279px){
+    .wfmDevxAppSection {padding-top: 60px;padding-bottom: 60px;}
+}
+
+@media(max-width:1023px){
+    .wfmDevxAppSection {padding-top: 30px;padding-bottom: 30px;}
+    .wfmDevxAppSection .devxAppMain .leftPart {width: 100%;padding-right: 0;}
+    .wfmDevxAppSection .devxAppMain .rightPart {width: 100%;margin-bottom: 40px;}
+    .wfmDevxAppSection .devxAppMain .rightPart img {width: 70%;}
+    .wfmDevxAppSection .devxAppMain {-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;}
+    .wfmDevxAppSection .devxAppNumber .numberBox {margin-bottom: 40px;}
+    .wfmDevxAppSection .devxAppMain .leftPart .siteBtn {margin-top: 40px;}
+}
+
+@media(max-width:567px){
+    .wfmDevxAppSection .devxAppMain .rightPart img{width:100%;}
+    .wfmDevxAppSection .devxAppMain .rightPart{margin-bottom:30px;}
+    .wfmDevxAppSection .devxAppNumber .numberBox{width:100%;margin-bottom:30px !important;}
+    .wfmDevxAppSection .devxAppNumber .numberBox:last-child{margin-bottom:0 !important;}
+    .wfmDevxAppSection .devxAppMain .leftPart .siteBtn {margin-top: 25px;}
+}

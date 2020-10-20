@@ -1,0 +1,40 @@
+.downloadPDFTabbingSection {padding-top: 60px;padding-bottom: 100px;}
+.downloadPDFTabbingSection .tabs .tabs-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:85%;margin-left:auto;margin-right:auto;}
+.downloadPDFTabbingSection .tabs .tabs-nav a{font-size:18px;line-height:24px;font-weight:normal;color:#CDCDCD;padding:17px 0;border:1px solid #EFEFEF;border-radius:10px;width:100%;display:inline-block;text-align:center;-webkit-transition: .5s all;-o-transition: .5s all;transition: .5s all;}
+.downloadPDFTabbingSection .tabs .tabs-nav li {margin: 0 13px;width: calc(100% / 3 - 0px);}
+.downloadPDFTabbingSection .tabs {width: 70%;margin-left: auto;margin-right: auto;}
+.downloadPDFTabbingSection .tabs .tabs-nav li a:hover, .downloadPDFTabbingSection .tabs .tabs-nav li.tab-active a {color: #327C93;-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);}
+.downloadPDFTabbingSection .tabs .tabs-stage{margin-top:50px;}
+.downloadPDFTabbingSection .tabs .tabs-stage .tabDetailWrap .tabContent{display:-webkit-box;display:-ms-flexbox;display:flex;background:#FFFFFF;-webkit-box-shadow:0px 0px 30px rgba(0,0,0,0.05);box-shadow:0px 0px 30px rgba(0,0,0,0.05);border-radius:10px;padding:30px;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+.downloadPDFTabbingSection .tabs .tabs-stage .tabDetailWrap .tabContent img:last-child{margin-bottom:0;}
+.downloadPDFTabbingSection .tabs .tabs-stage .tabDetailWrap .tabHeadingPart{margin-bottom:50px;}
+.downloadPDFTabbingSection .tabs .tabs-stage .tabDetailWrap .tabHeadingPart .secSubhead{margin-bottom:20px;}
+.downloadPDFTabbingSection .threeDSliderMain {width: 100% !important;margin-bottom: 0 !important;}
+.downloadPDFTabbingSection .tabs .tabs-stage .tabDetailWrap .tabContent .themeSliderMain.slick-initialized.slick-slider {margin-bottom: 0 !important;width: 100%;}
+.downloadPDFTabbingSection .slick-dots li button{border-radius:100%;width:10px;height:10px;padding:0;cursor: pointer;}
+.downloadPDFTabbingSection .slick-dots li button:before{display: none;}
+.downloadPDFTabbingSection .slick-dots li{width:10px;height:10px;background: #DEDEDE;border-radius:100px;}
+.downloadPDFTabbingSection .slick-dots li.slick-active{background:#327C93;border-radius:100px;}
+.downloadPDFTabbingSection .slick-dots {bottom: -80px;}
+.downloadPDFTabbingSection .tabs .tabs-stage .tabStages {display: none;}
+.downloadPDFTabbingSection .tabs .tabs-stage .activeTabsStage {display: block;}
+
+@media(max-width: 1279px){
+    .downloadPDFTabbingSection {padding-bottom: 60px;}
+    .downloadPDFTabbingSection .tabs {width: 90%;}    
+}
+@media(max-width: 1023px){    
+    .downloadPDFTabbingSection {padding-top: 30px;padding-bottom: 30px;}
+    .downloadPDFTabbingSection .tabs .tabs-nav a {padding: 10px 0;font-size: 14px;}
+    .downloadPDFTabbingSection .tabs .tabs-stage {margin-top: 30px;}
+}
+@media(max-width: 767px){
+    .downloadPDFTabbingSection .tabs .tabs-nav li {margin: 0 5px;}
+    .downloadPDFTabbingSection .tabs .tabs-stage {margin-top: 25px;}
+    .downloadPDFTabbingSection .tabs .tabs-stage .tabDetailWrap .tabContent {padding: 15px;}
+    .downloadPDFTabbingSection .tabs {width: 100%;}    
+}
+@media(max-width: 567px){    
+    .downloadPDFTabbingSection .tabs .tabs-nav a {padding: 5px 0;}
+    .downloadPDFTabbingSection .tabs .tabs-nav {width: 100%;}
+}

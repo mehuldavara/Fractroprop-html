@@ -1,0 +1,72 @@
+.corporationInnovationSection {padding-top: 100px;padding-bottom: 100px;}
+.corporationInnovationSection .corpMainBox{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom: 150px;}
+.corporationInnovationSection .corpMainBox > div{width:calc(100% / 2 - 0px);}
+.corporationInnovationSection .corpMainBox .rightPart{padding-left:100px;}
+.corporationInnovationSection .corpMainBox .sectionYellowHead{color:#222222;font-weight:500;font-size:16px;line-height:24px;display:inline-block;background-color:#ffeee2;border-radius:20px;padding:5px 16px;}
+.corporationInnovationSection .corpMainBox .secSubhead{margin-top:10px;margin-bottom:20px;}
+.consightLandigCorporation .rightPart p {margin-bottom: 25px;}
+.corporationInnovationSection .corpMainBox .siteOrangeBtn{margin-top:40px;}
+.corporationInnovationSection .corpMainBox:last-child{margin-bottom:0;}
+.corporationInnovationSection .corpMainBox:nth-child(2n){-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+.corporationInnovationSection .corpMainBox:nth-child(2n) .rightPart{padding-right:100px;padding-left:0;}
+.corporationInnovationSection .corpMainBox .leftPart{text-align:center;}
+.corporationInnovationSection .corpMainBox .leftPart img{width:auto;}
+.corporationInnovationSection .corpMainBox .siteRedBtn {margin-top: 25px;}
+.corporationInnovationSection .corporateInnoHead p {margin-bottom: 25px;}
+.corporationInnovationSection .corporateInnoHead p:last-child{margin-bottom: 0;}
+
+/* Innovent Landing Page */
+.corporationInnovationSection .corporateInnoHead{margin-bottom:70px;margin-left:auto;margin-right:auto;width:80%;}
+.corporationInnovationSection .corporateInnoHead .secSubhead{margin-bottom:20px;}
+
+/*  Consight Sector Page*/
+.consightLandigCorporation .corpMainBox .rightPart .letsTalk{margin-top:20px;}
+.consightLandigCorporation .corpMainBox .rightPart .letsTalk a{color:#E54A3E;}
+.consightLandigCorporation .corpMainBox .rightPart .letsTalk a svg{margin-left:15px;}
+
+/*  Innovent Sector Page*/
+.innoventLandigCorporation .corpMainBox .rightPart .letsTalk{margin-top:20px;}
+.innoventLandigCorporation .corpMainBox .rightPart .letsTalk a{color:#EF7C29;}
+.innoventLandigCorporation .corpMainBox .rightPart .letsTalk a svg{margin-left:15px;}
+
+/* Consight Landing Page */
+.consightLandigCorporation .corpMainBox .sectionYellowHead {color: #222222;display: inline-block;background: #FFE4E1;border-radius: 20px;padding: 5px 16px;margin-bottom: 10px;}
+
+/* Home Page */
+.homePageCorporationSection .spaceInnoHead {margin-bottom: 100px;margin-left: auto;margin-right: auto;width: 75%;}
+.homePageCorporationSection .spaceInnoHead .secSubhead {margin-bottom: 20px;}
+
+/* Consight - Entry Strategy Page */
+.corporationInnovationSection .corpMainBox .rightPart ul{margin-top:20px;}
+.corporationInnovationSection .corpMainBox .rightPart ul li{margin-bottom:20px;}
+.corporationInnovationSection .corpMainBox .rightPart ul li:last-child{margin-bottom:0;}
+
+
+@media(max-width: 1279px){
+    .corporationInnovationSection {padding-top: 60px;padding-bottom: 60px;}
+    .corporationInnovationSection .corpMainBox .rightPart{padding-left:50px;}
+    .corporationInnovationSection .corpMainBox:nth-child(2n) .rightPart{padding-right:50px;}
+    .corporationInnovationSection .corpMainBox{margin-bottom:100px;}
+    .corporationInnovationSection .corpMainBox .leftPart img {width: 100%;}
+}
+@media(max-width: 1023px){    
+    .corporationInnovationSection {padding-top: 30px;padding-bottom: 30px;}
+    .corporationInnovationSection .corpMainBox .secSubhead{margin-bottom:10px;}
+    .corporationInnovationSection .corpMainBox .siteOrangeBtn{margin-top:20px;}
+    .corporationInnovationSection .corpMainBox {margin-bottom: 50px;}
+    .corporationInnovationSection .corpMainBox .secSubhead br {display: none;}
+    .corporationInnovationSection .corporateInnoHead{width:100%;margin-bottom: 50px;}
+
+    /* Home Page */
+    .homePageCorporationSection .spaceInnoHead {width: 100%;}
+}
+@media(max-width: 767px){
+    .corporationInnovationSection .corpMainBox > div{width:100%;}
+    .corporationInnovationSection .corpMainBox .leftPart{margin-bottom:25px;}
+    .corporationInnovationSection .corpMainBox .rightPart{padding-left:0;}
+    .corporationInnovationSection .corpMainBox:nth-child(2n) .rightPart{padding-right:0;}    
+
+    /* Home Page */
+    .homePageCorporationSection .spaceInnoHead {margin-bottom: 40px;}
+    .homePageCorporationSection .corpMainBox .leftPart img {width: 80%;}
+}

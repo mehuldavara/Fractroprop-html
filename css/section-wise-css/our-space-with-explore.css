@@ -1,0 +1,37 @@
+.ourSpaceSection{padding-bottom:100px;padding-top: 100px;}
+.ourSpaceSection .ourSpaceMainBox{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left: -25px;margin-right: -25px;}            
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox{width:calc(100% / 4 - 50px);-webkit-box-shadow:0px 0px 30px rgba(0,0,0,0.1);box-shadow:0px 0px 30px rgba(0,0,0,0.1);border-radius:20px;margin: 0 25px;}
+.ourSpaceSection .ourSpaceMainBox .workImg{display:-webkit-box;display:-ms-flexbox;display:flex;border-radius:20px 20px 0 0;overflow:hidden;}
+.ourSpaceSection .ourSpaceMainBox .workImg img{border-radius:20px 20px 0 0;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;}
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox:hover .workImg img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;}
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox .workContent{padding:25px 15px;}
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox .workContent .locCardHead{font-weight:600;font-size:18px;line-height:25px;margin-bottom:10px;color: #222222;}
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox .workContent p{font-size:14px;line-height:21px;}
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox .workContent a {margin-top: 15px;display: inline-block;color: #0057FF;font-size: 14px;}
+.ourSpaceSection .ourSpaceMainBox .ourSpaceBox .workContent a img {margin-left: 15px;width: 7px;}
+.ourSpaceSection .ourSpaceMainBox .workImg a {display: -webkit-box;display: -ms-flexbox;display: flex;width: 100%;}
+
+/* Phi Desing Landing Page */
+.phiDesingLandingOurSpace .expertHead{text-align:center;width:70%;margin-left:auto;margin-right:auto;margin-bottom:70px;}
+.phiDesingLandingOurSpace .expertHead .secSubhead{margin-bottom:20px;}
+.phiDesingLandingOurSpace .ourSpaceMainBox .ourSpaceBox .workContent a {color: #EF9B27;}
+
+
+@media(max-width:1279px){
+    .ourSpaceSection {padding-bottom: 60px;padding-top: 60px;}
+    .ourSpaceSection .ourSpaceMainBox {margin-left: -10px;margin-right: -10px;}
+    .ourSpaceSection .ourSpaceMainBox .ourSpaceBox {width: calc(100% / 4 - 20px);margin: 0 10px;}
+
+    /* Phi Design Landin page */
+    .phiDesingLandingOurSpace .expertHead {width: 100%;margin-bottom: 50px;}
+}
+@media(max-width:1023px){
+    .ourSpaceSection .ourSpaceMainBox .ourSpaceBox {width: calc(100% / 2 - 20px);margin-bottom: 20px;}                
+    .ourSpaceSection {padding-bottom: 30px;padding-top: 30px;}
+}
+@media(max-width:767px){
+    .ourSpaceSection .ourSpaceMainBox .slick-list.draggable {padding-left: 0px !important;}
+    .ourSpaceSection .ourSpaceMainBox .ourSpaceBox .workContent a img {display: inline-block;}
+    .ourSpaceSection .ourSpaceMainBox .ourSpaceBox {-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);box-shadow: 0px 0px 15px rgba(0,0,0,0.1);}
+    .ourSpaceSection .ourSpaceMainBox {margin-right: -15px;margin-bottom: -20px !important;}
+}

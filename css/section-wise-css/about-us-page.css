@@ -1,0 +1,58 @@
+.aboutUsSection {padding-top: 100px;padding-bottom: 100px;}
+.aboutUsSection .aboutFirstPart{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.aboutUsSection .aboutFirstPart > div{width:calc(100% / 2 - 0px);}
+.aboutUsSection .aboutFirstPart .abtMisBox .abtMisTitle{font-weight:500;font-size:18px;line-height:27px;color:#222222;margin-bottom:10px;}
+.aboutUsSection .aboutFirstPart .abtMisBox:first-child{margin-bottom:30px;}
+.aboutUsSection .aboutFirstPart .rightPart{padding-left:50px;margin-top: 25px;}
+.aboutUsSection .aboutFirstPart .leftPart{padding-right:50px;}
+.aboutUsSection .aboutFirstPart .leftPart .secSubhead{margin-bottom:25px;}
+.aboutUsSection .aboutSecondPart{width:70%;margin-left:auto;margin-right:auto;margin-top:100px;}
+.aboutUsSection .aboutSecondPart .ourJourneyImg{margin-top:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-shadow:0 0 black;box-shadow:0 0 black;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+
+@media(max-width: 1279px){
+    .aboutUsSection {padding-top: 60px;padding-bottom: 60px;}
+}
+@media(max-width: 1023px){    
+    .aboutUsSection {padding-top: 30px;padding-bottom: 30px;}
+    .aboutUsSection .aboutFirstPart .leftPart{padding-right:30px;}
+    .aboutUsSection .aboutFirstPart .rightPart{padding-left:30px;}
+    .aboutUsSection .aboutFirstPart .leftPart .secSubhead{margin-bottom:15px;}
+    .aboutUsSection .aboutSecondPart {margin-top: 50px;width: 80%;}
+    .aboutUsSection .aboutSecondPart .ourJourneyImg {margin-top: 30px;}
+}
+@media(max-width: 767px){
+    .aboutUsSection .aboutFirstPart .leftPart{padding-right:0;margin-bottom:25px;}
+    .aboutUsSection .aboutFirstPart > div{width:100%;}
+    .aboutUsSection .aboutFirstPart .rightPart{padding-left:0;}
+    .aboutUsSection .aboutFirstPart .abtMisBox:first-child{margin-bottom:15px;}
+    .aboutUsSection .aboutSecondPart{width:100%;margin-top:30px;}
+    .aboutUsSection .aboutSecondPart .ourJourneyImg{margin-top:10px;}
+}
+
+/* Error Page */
+.errorPage{padding-top:100px;padding-bottom:100px;}
+.errorPage .errorHead .firstHead{font-size:24px;line-height:36px;color:#222222;}
+.errorPage .errorHead .secondHead{font-weight:600;font-size:48px;line-height:72px;color:#222222;}
+.errorPage .errorImg{margin-top:50px;margin-bottom:50px;}
+.errorPage .errorImg img{width:60%;}
+
+@media(max-width:1500px){
+    .errorPage {padding-top: 40px;padding-bottom: 40px;}
+    .errorPage .errorImg {margin-top: 20px;margin-bottom: 20px;}
+    .errorPage .errorImg img {width: 50%;}
+}
+
+@media(max-width: 1023px){
+    .errorPage {padding-bottom: 50px;padding-top: 100px;}
+}
+
+@media(max-width: 767px){
+    .errorPage .errorHead .firstHead {font-size: 20px;line-height: 30px;}
+    .errorPage .errorHead .secondHead {font-size: 30px;line-height: 50px;}
+    .errorPage .errorImg {margin-top: 20px;margin-bottom: 20px;}
+    .errorPage .siteGreenBtn a {padding: 12px 30px;font-size: 14px;}
+}
+
+@media(max-width: 567px){
+    .errorPage .errorImg img {width: 100%;}
+}

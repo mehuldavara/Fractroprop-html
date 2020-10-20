@@ -1,0 +1,30 @@
+.meetOurPartnerSection{padding-top:100px;padding-bottom: 100px;}
+.meetOurPartnerSection .partnerLogoPart .logoPartner{width:calc(20% - 20px);margin:0 10px 20px;background:#FFFFFF;border-radius:10px;padding:15px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height: 150px;}
+.meetOurPartnerSection .partnerLogoPart{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-10px;margin-right:-10px;margin-bottom:35px;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+.meetOurPartnerSection .partnerLogoPart .logoPartner a {display: -webkit-box;display: -ms-flexbox;display: flex;}
+.meetOurPartnerSection .partnerBtn{text-align:center;}
+.meetOurPartnerSection .partnerBtn a{background:#009246;border-radius:5px;font-weight:600;font-size:18px;line-height:25px;color:#FFFFFF;padding:17px 62px;border:1px solid #009246;}
+.meetOurPartnerSection .partnerBtn a:hover{background:#fff;border-color: #009246;color:#000;}
+.meetOurPartnerSection .siteBtn {text-align: center;}
+
+/* Collab Broker Page */
+.collabBrokerOurTeamSection .partnerLogoPart{margin-bottom:0;}
+.collabBrokerOurTeamSection .partnerLogoPart .logoPartner{width:calc(100% / 4 - 20px);height:100px;margin-bottom: 50px;}
+.collabBrokerOurTeamSection .partnerLogoPart .logoPartner:nth-last-child(4), .collabBrokerOurTeamSection .partnerLogoPart .logoPartner:nth-last-child(3), 
+.collabBrokerOurTeamSection .partnerLogoPart .logoPartner:nth-last-child(2), .collabBrokerOurTeamSection .partnerLogoPart .logoPartner:nth-last-child(1) {margin-bottom: 0;}
+
+@media(max-width:1279px){
+    .meetOurPartnerSection {padding-top: 60px;padding-bottom: 60px;}
+}
+
+@media(max-width:1023px){
+    .meetOurPartnerSection .partnerLogoPart .logoPartner {height: 95px;}
+    .meetOurPartnerSection {padding-top: 30px;padding-bottom: 30px;}
+}
+
+@media(max-width:767px){
+    .meetOurPartnerSection .partnerLogoPart {margin-bottom: 0;margin-right: -15px;}
+    .meetOurPartnerSection .partnerLogoPart .logoPartner {height: inherit;width: calc(100% / 3 - 20px);margin-bottom: 20px;}
+    .meetOurPartnerSection .partnerLogoPart .slick-list.draggable {padding-left: 0px !important;}
+    .meetOurPartnerSection .siteBtn {margin-top: 15px;}
+}

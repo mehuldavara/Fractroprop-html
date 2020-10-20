@@ -1,0 +1,74 @@
+.paddingTopBottomSection{padding-top:100px;padding-bottom:100px;}
+
+/* Co Work Timing */
+.coWorkerTimingSection .workTimingWrap {display: -webkit-box;display: -ms-flexbox;display: flex;}
+
+/* Event Section */
+.covidEventSection .covidEventMainWrap .eventRightWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px;}
+.covidEventSection .covidEventMainWrap .eventRightWrap .eventBox{width:calc(100%/4 - 30px);margin:15px 15px;-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);border-radius: 20px;}
+.covidEventSection .covidEventMainWrap .eventCardHead {font-weight: 600;font-size: 16px;line-height: 25px;margin-bottom: 5px;color: #222222;}
+.covidEventSection .covidEventMainWrap .eventLocation p {font-size: 12px;line-height: 16px;}
+.covidEventSection .covidEventMainWrap .eventLocation p img {width: auto;display: inline-block;}
+.covidEventSection .covidEventMainWrap .eventLocation p span {display: block;}
+.covidEventSection .covidEventMainWrap .eventAttend p {font-size: 10px;line-height: 14px;color: #4F258B;}
+.covidEventSection .covidEventMainWrap .eventTime{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.covidEventSection .covidEventMainWrap .eventTime p{font-size:10px;line-height:14px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:50%;}
+.covidEventSection .covidEventMainWrap .eventTime p span{display:block;color:#565267;}
+.covidEventSection .covidEventMainWrap .eventTime p:last-child {color: #ABABAB;}
+.covidEventSection .covidEventMainWrap .evetBoxImg{display:-webkit-box;display:-ms-flexbox;display:flex;border-radius:20px 20px 0 0;overflow:hidden;}
+.covidEventSection .covidEventMainWrap .evetBoxImg img {width: 100%;border-radius: 20px 20px 0 0;-webkit-transition: .5s all;-o-transition: .5s all;transition: .5s all;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
+.covidEventSection .covidEventMainWrap .eventRightWrap .eventBox:hover .evetBoxImg img {-webkit-transition: .5s all;-o-transition: .5s all;transition: .5s all;-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
+.covidEventSection .covidEventMainWrap .eventRightWrap .eventBox .eventContent {padding: 15px 15px 20px;}
+.covidEventSection .covidEventMainWrap .eventAttend {margin: 10px 0;}
+
+/* Timing Section */
+.coWorkerTimingSection .workTimeSliderWrap .workSliderTime {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+.coWorkerTimingSection .workTimeSliderWrap .workSliderTime img{width:calc(100%/4 - 20px);margin:0 10px;}
+
+/* Video Section */
+.covidVideoSection .videoCovidWrap{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.covidVideoSection .videoCovidWrap iframe{height:544px;width:75%;margin-left:auto;margin-right:auto;border-radius: 20px;}
+
+/* Collab Community Main */
+.covidEventSection .siteBtn {margin-top: 50px;}
+
+/* Home Page */
+/* .homePageVideo {padding-top: 30px;} */
+
+
+@media(max-width: 1500px){
+    .covidEventSection .covidEventMainWrap .eventRightWrap {margin-left: -10px;margin-right: -10px;}
+    .covidEventSection .covidEventMainWrap .eventRightWrap .eventBox {width: calc(100%/4 - 20px);margin: 10px 10px;}
+    .covidEventSection .covidEventMainWrap .eventCardHead {font-size: 14px;}
+    .covidVideoSection .videoCovidWrap iframe {height: 469px;}
+}
+
+@media(max-width: 1279px){
+    .paddingTopBottomSection {padding-top: 60px;padding-bottom: 60px;}
+
+    .covidVideoSection .videoCovidWrap iframe {height: 497px;width: 95%;}    
+}
+@media(max-width: 1023px){
+    .paddingTopBottomSection {padding-top: 30px;padding-bottom: 30px;}
+    .covidEventSection .covidEventMainWrap .eventRightWrap .eventBox {width: calc(100%/2 - 20px);}
+
+    /* Video Section */
+    .covidVideoSection .videoCovidWrap iframe{height:390px;width:100%;margin-left:auto;margin-right:auto;}
+}
+@media(max-width: 767px){
+    .covidEventSection .covidEventMainWrap .eventRightWrap .slick-list {padding-left: 0 !important;}
+    .covidEventSection .covidEventMainWrap .eventRightWrap .eventBox {-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);}
+    .covidEventSection .covidEventMainWrap .eventRightWrap {margin-right: -15px;}   
+
+    /* Timing Section */
+    .coWorkerTimingSection .workTimeSliderWrap .slick-list {padding-left: 0 !important;}
+    .coWorkerTimingSection .workTimeSliderWrap {margin-right: -15px;}
+    .coWorkerTimingSection .workTimeSliderWrap img {margin: 0 10px;}
+
+    /* Video Section */
+    .covidVideoSection .videoCovidWrap iframe {height: 356px;}
+}
+
+@media(max-width:567px){
+    .covidVideoSection .videoCovidWrap iframe {height: 215px;}    
+}

@@ -1,0 +1,64 @@
+.officeTourSection {padding-top: 100px;padding-bottom: 100px;}            
+.officeTourSection .officeTourWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom: 195px;}
+.officeTourSection .officeTourWrap .leftPart{width:50%;padding-right: 85px;}
+.officeTourSection .officeTourWrap .rightPart{width:50%;text-align:right;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;padding-left: 100px;}
+.officeTourSection .officeTourWrap .leftPart p{line-height:28px;margin-top:20px;margin-bottom: 25px;}
+.officeTourSection .officeTourWrap:nth-child(2n){-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+.officeTourSection .officeTourWrap:nth-child(2n) .leftPart{padding-right:0;padding-left:85px;}
+.officeTourSection .officeTourWrap:nth-child(2n) .rightPart{padding-left:0;padding-right:100px;}
+.officeTourSection .officeTourWrap:last-child{margin-bottom:0;}
+.officeTourSection .officeTourWrap .leftPart p:last-child {margin-bottom: 0;}
+.officeTourSection .officeTourWrap .rightPart #map {height: 424px;width: 100%;}
+
+/* Collab */
+/* Map Section */
+.collabCityMapSection .officeTourWrap .rightPart {padding-left: 0;}
+
+/* Work From Home */
+.collabWfmofficeTour {padding-top: 50px;}
+.collabWfmofficeTour .officeTourWrap .leftPart p:last-child {margin-bottom: 0;}
+.collabWfmofficeTour .officeTourWrap .rightPart {padding-left: 20px;}
+
+@media(max-width:1279px){
+    .officeTourSection {padding-top: 60px;padding-bottom: 60px;}
+    .officeTourSection .officeTourWrap .leftPart {padding-right: 50px;}
+}
+@media(max-width:1023px){
+    .officeTourSection .officeTourWrap .leftPart {padding-right: 0;}
+    .officeTourSection .officeTourWrap .rightPart {padding-left: 50px;}
+    .officeTourSection {padding-top: 30px;padding-bottom: 30px;}
+
+    /* Collab */
+    /* Work From Home */
+    .collabWfmofficeTour .officeTourWrap .leftPart{width:100%;margin-top: 15px;}
+    .collabWfmofficeTour .officeTourWrap .rightPart{width:100%;padding-left:0;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;}
+    .collabWfmofficeTour .officeTourWrap .rightPart img{width:70%;}
+    .collabWfmofficeTour .officeTourWrap {-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;}
+    .collabWfmofficeTour .officeTourWrap .leftPart .secSubhead br {display: none;} 
+    
+    /* Map Section */
+    .collabCityMapSection .officeTourWrap .leftPart{width:100%;margin-bottom:30px;}
+    .collabCityMapSection .officeTourWrap .rightPart{width:100%;}
+
+}
+
+@media(max-width:767px){
+    .collabWfmofficeTour .officeTourWrap .rightPart {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+}
+
+@media(max-width:567px){
+    .officeTourSection .officeTourWrap > div{width:100% !important;}
+    .officeTourSection .officeTourWrap{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;}
+    .officeTourSection .officeTourWrap .rightPart{padding-left:0;margin-bottom:30px;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+    .officeTourSection .officeTourWrap .leftPart p{margin-top:15px;margin-bottom:25px;}
+    .officeTourSection .officeTourWrap .leftPart .siteBtn{text-align:center;}
+
+    /* Collab */
+    /* Work From Home */
+    .collabWfmofficeTour .officeTourWrap .rightPart img {width: 100%;}
+    .collabWfmofficeTour .officeTourWrap .rightPart {margin-bottom: 0;}
+
+    /* Map Section */
+    .collabCityMapSection .officeTourWrap {flex-direction: inherit;}
+    .collabCityMapSection .officeTourWrap .rightPart {margin-bottom: 0;}
+}

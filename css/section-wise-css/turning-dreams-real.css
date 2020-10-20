@@ -1,0 +1,159 @@
+.turningDreamsSection{padding-top:100px;padding-bottom:100px;}
+.turningDreamsSection .turnHeading{text-align:center;width:71%;margin-left:auto;margin-right:auto;}
+.turningDreamsSection .turnHeading .secSubhead {margin-bottom: 20px;}
+.turningDreamsSection .trunBoxMain{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;text-align:center;width:85%;margin:80px auto 0;}
+.turningDreamsSection .trunBoxMain .turnIconBox{width:calc(100% / 3 - 80px);margin:0 40px;}
+.turningDreamsSection .turnIcon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height: 100px;}
+.turningDreamsSection .turnIcon img{width:auto;}
+.turningDreamsSection .trunBoxMain .turnIconBox .trunIconHead{font-weight:500;font-size:18px;line-height:27px;color:#222222;margin-bottom:15px;margin-top:15px;}
+.turningDreamsSection .siteYellowBtn, .turningDreamsSection .siteOrangeBtn, .turningDreamsSection .siteRedBtn {margin-top: 40px;}
+.turningDreamsSection .sectionFullImg {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-top: 50px;}
+.turningDreamsSection .playStoreLink{margin-top:20px;}
+.turningDreamsSection .playStoreLink a{display:inline-block;}
+.turningDreamsSection .playStoreLink a img{width:auto;vertical-align: middle;}
+
+/* Phi Design Web Desing Services */
+.phiDesingWebDesingturningDream .turnHeading {width: 95%;}
+
+/* Phi Desing Technology Page */
+.phiDesingTechnologySecondSection .trunBoxMain {margin-top: 0;}
+.phiDesingTechnologySecondSection .turnIcon{height: inherit;}
+.phiDesingTechnologySecondSection .turnIcon img {width: 100%;height: 130px;-o-object-fit: contain;object-fit: contain;}
+
+/* Collab Landloard */
+.landLoardPageTurning .turnHeading {width: 77%;}
+.landLordTurningSection {padding-bottom: 0;}
+.landLordBlueBtn .siteBtn {margin-top: 50px;}
+
+/* Collab Managed Office City Wise Page */
+.collabManagedOfficeCityTurning .collagManagedCity{margin-top:60px;}
+.collabManagedOfficeCityTurning .collagManagedCity ul{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;width:75%;margin:0 auto;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+.collabManagedOfficeCityTurning .collagManagedCity ul li a{cursor: pointer;font-weight:500;font-size:16px;line-height:1;color:#222222;background:#DAF2FA;border-radius:20px;text-align:center;padding:10px 13px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0 10px 25px;}
+.collabManagedOfficeCityTurning .collagManagedCity ul li a.managedSelectArea, .collabManagedOfficeCityTurning .collagManagedCity ul li a:hover {background: #327c93;color: #fff;}
+.collabManagedOfficeCityTurning .siteBtn {text-align: center;margin-top: 50px;}
+
+/* Collab Advertisement Page */
+.turningDreamsSection .bannerFormNumber {margin-top: 50px;}
+.turningDreamsSection .bannerFormNumber .bookNowInputField {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+
+/* Collab Advertisement Four Aminities */
+.turningDreamsSection .amenitMainBox{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-15px;margin-right:-15px;}
+.turningDreamsSection .amenitMainBox .aminitiBox{width:calc(100% / 4 - 30px);text-align:center;margin:0 15px 50px;}
+.turningDreamsSection .amenitMainBox .aminitiBox .aminitiIconContent p{line-height:24px;margin-top: 15px;}
+.turningDreamsSection .amenitMainBox .aminitiBox .aminitiIcon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;min-height:32px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.turningDreamsSection .amenitMainBox .aminitiBox .aminitiIcon img {width: auto;}
+.turningDreamsSection .fourAminities {margin-top: 50px;}
+/* Multiselect Form */
+.turningDreamsSection .container-checkbox{display:block;position:relative;padding:28px 0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center;font-size:16px;line-height:28px;color:#222222;background: #FFFFFF;-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);border-radius: 10px;width: 100%;}
+.turningDreamsSection .container-checkbox input{position:absolute;opacity:0;cursor:pointer;}
+.turningDreamsSection .container-checkbox .checkmark{position:absolute;top:15px;left:15px;height:24px;width:24px;border-radius: 100px;border: 1px solid #CDCDCD;}
+.turningDreamsSection .container-checkbox input:checked ~ .checkmark{background-color:#159DFF;border-color: #159DFF;}
+.turningDreamsSection .container-checkbox .checkmark:after{content:"";position:absolute;display:none;}
+.turningDreamsSection .container-checkbox input:checked ~ .checkmark:after{display:block;}
+.turningDreamsSection .container-checkbox .checkmark:after{left:8px;top:3px;width:5px;height:10px;border:solid white;border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.turningDreamsSection .multiSelectTeamSizeForm .siteBtn {width: 100%;text-align: center;margin-top: 40px;}
+.turningDreamsSection .multiSelectTeamSizeForm .multiCheckBox{width:calc(100% / 5 - 30px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0 15px 40px;}
+.turningDreamsSection .container-checkbox strong {display: block;font-weight: 500;font-size: 32px;line-height: 28px;color: #327C93;margin-top: 15px;}
+
+/* Accel Landing Page */
+.accelLandingTurningSection .accelProgramMainBox{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;width:75%;margin-left:auto;margin-right:auto;margin-top:40px;}
+.accelLandingTurningSection .accelProgramMainBox .accelProBox{width:calc(100% / 2 - 40px);text-align:center;border:1px solid #EFEFEF;border-radius:20px;padding:40px 10px;margin:0 20px;}
+.accelLandingTurningSection .turnHeading{width:80%;}
+.accelLandingTurningSection .accelProgramMainBox .accelProBox .accelBoxHead{font-weight:500;font-size:18px;line-height:27px;color:#000000;}
+.accelLandingTurningSection .accelProgramMainBox .accelProBox p{margin-top:15px;margin-bottom:29px;}
+.accelLandingTurnImgSection .turnHeading {width: 100%;}
+.accelLandingTurningSection .siteAccelBtn a {width: 70%;padding-left: 0;padding-right: 0;}
+
+/* Accel Cohort */
+.turningDreamsSection .siteAccelBtn {margin-top: 40px;}
+
+/* Haas Landing page */
+.haasLandingPageTurning .turnIcon img {height: 100px;-o-object-fit: scale-down;object-fit: scale-down;}
+
+/* Haas About Hackathon */
+.haasAboutHackathonPage .turnHeading{width:80%;}
+.haasAboutHackathonPage .turnHeading p{margin-bottom:25px;}
+.haasAboutHackathonPage .turnHeading p:last-child {margin-bottom: 0;}
+.haasAboutHackathonPage .siteHaasBtn {margin-top: 50px;}
+
+/* Haas Partner Page */
+.turningDreamsSection .siteHaasBtn{margin-top: 40px;}
+
+@media(max-width:1279px){
+    .turningDreamsSection{padding-top:60px;padding-bottom:60px;}
+    .turningDreamsSection .trunBoxMain {width: 100%;margin: 50px auto 0;}
+    .turningDreamsSection .trunBoxMain .turnIconBox {width: calc(100% / 3 - 30px);margin: 0 15px;}
+    .turningDreamsSection .turnHeading p br {display: none;}
+
+    /* Collab Managed Office City Wise Page */
+    .collabManagedOfficeCityTurning .collagManagedCity ul {width: 100%;}
+
+    /* Accel Landing Page */
+    .accelLandingTurningSection .accelProgramMainBox {width: 100%;}
+
+    /* Collab Advertisement Multiselect Form */
+    .turningDreamsSection .multiSelectTeamSizeForm .bookNowInputField .formGroup input {width: 280px;}
+}
+
+@media(max-width:1023px){
+    .turningDreamsSection{padding-top:30px;padding-bottom:30px;}
+    .turningDreamsSection .sectionFullImg {margin-top: 30px;}
+    .turningDreamsSection .turnHeading{width:100%;}
+
+    /* Accel Landing Page */
+    .accelLandingTurningSection .accelProgramMainBox .accelProBox {width: calc(100% / 2 - 20px);margin: 0 10px;}
+
+    /* Haas About Hackathon */
+    .haasAboutHackathonPage .siteHaasBtn {margin-top: 30px;}
+
+    /* Collab Advertisement Four Aminities */
+    .turningDreamsSection .fourAminities {margin-top: 30px;}
+
+    /* Collab Advertisement Multiselect Form */
+    .turningDreamsSection .multiSelectTeamSizeForm .bookNowInputField .formGroup input {width: 220px;}
+    .turningDreamsSection .multiSelectTeamSizeForm .multiCheckBox{width:calc(100% / 5 - 10px);margin:0 5px 40px;}
+    .turningDreamsSection .container-checkbox strong{font-size:22px;margin-top:0;}
+    .turningDreamsSection .container-checkbox .checkmark{top:10px;left:10px;}
+    .turningDreamsSection .container-checkbox{padding:40px 0 20px;}
+}
+
+@media(max-width:767px){
+    .turningDreamsSection .trunBoxMain .turnIconBox{width:100%;margin:0 0 25px;}
+    .turningDreamsSection .trunBoxMain .turnIconBox:last-child{margin-bottom:0;}
+    .turningDreamsSection .trunBoxMain .turnIconBox .trunIconHead {margin-bottom: 10px;}
+    .turningDreamsSection .trunBoxMain .turnIconBox .trunIconHead {font-size: 17px;}
+
+    /* Phi Design Web Desing Services */
+    .phiDesingWebDesingturningDream .turnHeading .secSubhead br {display: none;}
+
+    /* Phi Design Contemporary */
+    .phiDesingWebDesingturningDream .turnIcon {height: auto;}
+
+    /* Accel Landing Page */    
+    .accelLandingTurningSection .accelProgramMainBox .accelProBox:last-child {margin-bottom: 0;}
+    .accelLandingTurningSection .accelProgramMainBox .accelProBox {width: 100%;margin: 0 0 20px;padding: 30px 10px;}
+    .accelLandingTurningSection .siteAccelBtn a {width: 85%;}
+
+    /* Collab Managed Ahmedabad */
+    .collabManagedOfficeCityTurning .collagManagedCity {margin-top: 30px;}
+    .collabManagedOfficeCityTurning .siteBtn {margin-top: 20px;}
+
+    /* Phi Design Technology Page */
+    .phiDesingTechnologySecondSection .trunBoxMain {margin-top: 0;}
+    .phidesingTechnologyPageBanner .contentWrap .leftPart p {margin-bottom: 0;}
+}
+
+@media(max-width:567px){
+    /* Collab Advertisement Four Aminities */
+    .turningDreamsSection .amenitMainBox .aminitiBox {width: calc(100% / 2 - 30px);margin: 0 15px 30px;}
+
+    /* Collab Advertisement Multiselect Form */
+    .turningDreamsSection .multiSelectTeamSizeForm .bookNowInputField .formGroup input {width: 100%;}
+    .turningDreamsSection .multiSelectTeamSizeForm .multiCheckBox{width:calc(100% / 2 - 10px);margin:0 5px 15px;}
+    .turningDreamsSection .multiSelectTeamSizeForm .siteBtn {margin-top: 10px;}
+    .turningDreamsSection .bannerFormNumber {margin-top: 30px;}
+    .turningDreamsSection .container-checkbox {padding: 8px 0 8px 50px;text-align: left;}
+    .turningDreamsSection .container-checkbox strong {display: inline-block;font-size: 16px;margin-left: 5px;}
+    .turningDreamsSection .multiSelectTeamSizeForm .multiCheckBox {width: 100% !important;}
+    .turningDreamsSection .multiSelectTeamSizeForm .formBtn .btnLoader {left: 0;bottom: 0;}
+}

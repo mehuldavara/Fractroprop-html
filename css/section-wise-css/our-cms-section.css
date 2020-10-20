@@ -1,0 +1,29 @@
+.ourCmsSection{padding-top: 100px;padding-bottom: 100px;}
+.ourCmsSection .cmsContentPart{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.ourCmsSection .cmsContentPart .leftPart{width:40%;padding-right: 50px;}
+.ourCmsSection .cmsContentPart .rightPart {width: 60%;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBoxWrap {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-left: -10px;margin-right: -10px;}
+.ourCmsSection .cmsContentPart .leftPart p{line-height:28px;margin-top:20px;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBox {width: calc(100% / 3 - 20px);margin: 0 10px;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBox .cmsContWrap .cmsImage img {border-radius: 20px;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);-webkit-transition: .5s all;-o-transition: .5s all;transition: .5s all;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBox .cmsContWrap:hover .cmsImage img {-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);-webkit-transition: .5s all;-o-transition: .5s all;transition: .5s all;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBox .cmsContWrap{position:relative;-webkit-box-shadow:0px 0px 30px rgba(0,0,0,0.1);box-shadow:0px 0px 30px rgba(0,0,0,0.1);border-radius:20px;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBox .cmsContWrap .ourCmsNameHead {position: absolute;bottom: 15px;left: 15px;color: #FFFFFF;font-weight: normal;}
+.ourCmsSection .cmsContentPart .rightPart .cmsBox .cmsContWrap .cmsImage {display: -webkit-box;display: -ms-flexbox;display: flex;border-radius: 20px;overflow: hidden;}
+@media(max-width:1279px){
+    .ourCmsSection {padding-top: 60px;padding-bottom: 60px;}
+    .ourCmsSection .cmsContentPart .leftPart {padding-right: 35px;}
+}
+@media(max-width:1023px){
+    .ourCmsSection .cmsContentPart .leftPart {width: 100%;padding-right: 0;margin-bottom: 25px;}
+    .ourCmsSection .cmsContentPart .rightPart {width: 100%;}
+    .ourCmsSection {padding-top: 30px;padding-bottom: 30px;}    
+}
+@media(max-width:767px){
+    .ourCmsSection .cmsContentPart .rightPart .cmsBoxWrap .slick-list.draggable {padding-left: 0px !important;}
+    .upCommingEventSection .aboutEventAll .rightPart .eventLocation p img {display: inline-block;}
+    .ourCmsSection .cmsContentPart .rightPart .cmsBox .cmsContWrap {-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);box-shadow: 0px 0px 15px rgba(0,0,0,0.1);}
+    .ourCmsSection .cmsContentPart .rightPart .cmsBox {width: calc(100% / 3 - 10px);margin: 0 5px;}
+    .ourCmsSection .cmsContentPart .rightPart .cmsBoxWrap {margin-left: 0;margin-right: -15px;}    
+    .ourCmsSection .cmsContentPart .leftPart p {margin-top: 15px;}
+}

@@ -1,0 +1,25 @@
+.featuresDevxSection{padding-top: 100px;padding-bottom: 100px;}            
+.featuresDevxSection .featureBoxWrap {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;}            
+.featuresDevxSection .featureMainBox > div {width: 50%;}
+.featuresDevxSection .featureMainBox .rightPart {margin-top: -70px;}            
+.featuresDevxSection .featureBoxWrap .featureBox{width:calc(50% - 20px);text-align:center;-webkit-box-shadow:0px 0px 30px rgba(0,0,0,0.1);box-shadow:0px 0px 30px rgba(0,0,0,0.1);border-radius:20px;padding:30px 20px;margin:0 10px 20px;}
+.featuresDevxSection .featureBoxWrap .featureBox .featureImg{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+.featuresDevxSection .featureBoxWrap .featureBox .featureImg img{width:auto;}
+.featuresDevxSection .featureMainBox {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-left: -10px;margin-right: -10px;}
+.featuresDevxSection .featureBoxWrap .featureBox p{font-weight:normal;margin-top:10px;}
+.featuresDevxSection .featureBoxWrap .featureBox .featureBoxHead{font-weight:600;margin-top:15px;font-size: 18px;line-height: 25px;color: #222222;}
+@media(max-width: 1279px){
+    .featuresDevxSection {padding-top: 60px;padding-bottom: 60px;}
+    .featuresDevxSection .featureMainBox .rightPart {margin-top: -50px;}                
+}
+@media(max-width:1023px){
+    .featuresDevxSection .featureMainBox > div {width: 100%;}
+    .featuresDevxSection .featureMainBox .rightPart {margin-top: 0;}
+    .featuresDevxSection {padding-top: 30px;padding-bottom: 30px;}
+}
+@media(max-width:567px){
+    .featuresDevxSection .featureBoxWrap .featureBox {width: 100%;margin: 0 0 20px;}
+    .featuresDevxSection .featureMainBox {margin-left: 0;margin-right: 0;}
+    .featuresDevxSection .featureBoxWrap .featureBox .featureBoxHead {font-size: 18px;}
+    .featuresDevxSection .featureBoxWrap .featureBox p {height: auto !important;}
+}

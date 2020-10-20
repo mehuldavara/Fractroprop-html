@@ -1,0 +1,40 @@
+.historicalLocationSection {padding-bottom: 100px;padding-top: 100px;}
+.historicalLocationSection .hisLocWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.historicalLocationSection .hisLocWrap > div{width:50%;}
+.historicalLocationSection .hisLocWrap .leftPart .hisMainBox{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.historicalLocationSection .hisLocWrap .leftPart .hisMainBox .hisBox{width:calc(100% / 3 - 0px);text-align:center;position:relative;margin-bottom: 20px;}
+.historicalLocationSection .hisLocWrap .leftPart .hisMainBox .hisBox .hisImg{display:-webkit-box;display:-ms-flexbox;display:flex;height:100px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+/* .historicalLocationSection .hisLocWrap .leftPart .hisMainBox .hisBox .hisMainLocation{position:absolute;left:0;bottom:-6px;width:100%;font-size: 16px;} */
+.historicalLocationSection .hisLocWrap .leftPart .hisMainBox .hisBox .hisMainLocation {width: 100%;font-size: 16px;margin-top: 10px;}
+.historicalLocationSection .hisLocWrap .leftPart .hisMainBox .hisBox a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#797687;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.historicalLocationSection .hisLocWrap .rightPart {padding-left: 150px;}
+.historicalLocationSection .hisLocWrap .rightPart .secSubhead {margin-bottom: 30px;}
+
+/* Collab Landing Page */
+.collabLandinghistorical {padding-top: 0;}
+
+@media(max-width:1279px){
+    .historicalLocationSection .hisLocWrap .rightPart {padding-left: 100px;}
+    .historicalLocationSection {padding-bottom: 60px;padding-top: 60px;}
+
+    /* Collab */
+    /* Landing Page */
+    .collabLandinghistorical{padding-top: 0;}
+}
+
+@media(max-width:1023px){
+    .historicalLocationSection .hisLocWrap .rightPart {padding-left: 33px;}
+    .historicalLocationSection .hisLocWrap .rightPart br{display: none;}
+    .historicalLocationSection {padding-bottom: 30px;padding-top: 30px;}
+}
+
+@media(max-width:767px){
+    .historicalLocationSection .hisLocWrap > div {width: 100%;}
+    .historicalLocationSection .hisLocWrap .rightPart {padding-left: 0;margin-bottom: 0px;}
+    .historicalLocationSection .hisLocWrap {-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;position: relative;padding-bottom: 50px;}
+    .historicalLocationSection .hisLocWrap .rightPart .siteBtn {position: absolute;bottom: 0;width: 100%;text-align: center;}
+}
+
+@media(max-width:567px){
+    .historicalLocationSection .hisLocWrap .leftPart .hisMainBox .hisBox {width: calc(100% / 2 - 0px);margin-bottom: 30px;}
+}

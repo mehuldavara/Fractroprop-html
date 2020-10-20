@@ -1,0 +1,169 @@
+.proudCommuSection, .devxOwnerSection{padding-top:100px;padding-bottom:100px;}
+.proudCommuSection .communityMain{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-10px;margin-right:-10px;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+.proudCommuSection .communityMain .communityBox{width:calc(100% / 4 - 60px);text-align:center;margin:0 30px 70px;}
+.proudCommuSection .communityMain .communityBox .commuPost{font-weight:500;font-size:18px;line-height:27px;color:#222222;margin-bottom: 10px;}
+.proudCommuSection .communityMain .communityBox .communityImag {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;margin-bottom: 15px;position: relative;}
+.proudCommuSection .communityMain .communityBox:last-child, .proudCommuSection .communityMain .communityBox:nth-last-child(2), 
+.proudCommuSection .communityMain .communityBox:nth-last-child(3), .proudCommuSection .communityMain .communityBox:nth-last-child(4) {margin-bottom: 0;}
+
+/* Accel Individual Investors Page */
+.proudCommuSection .communityMain .communityBox .communityImag .linkedInIcon{position:absolute;bottom:0;opacity:0;-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;}
+.proudCommuSection .communityMain .communityBox:hover .communityImag .linkedInIcon {opacity: 1;-webkit-transition: .5s all;-o-transition: .5s all;transition: .5s all;}
+.proudCommuSection .communityMain .communityBox .communityImag .linkedInIcon a{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.proudCommuSection .communityMain .communityBox .communityImag img {-o-object-fit: contain;object-fit: contain;width: auto;}
+.accelIndiInvestorProudCommSection .communityMain .communityBox .communityImag {height: 220px;}
+
+/* Board of Directors Page */
+.boardOfDirectorProud .communityMain .communityBox {width: calc(100% / 3 - 60px);margin-bottom: 100px;}
+.boardOfDirectorProud .communityMain {-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;margin-left: auto;margin-right: auto;width: 90%;}
+
+/* LeaderShip */
+.boardOfDirectorProud .leaderBodHead, .leadershipSection .leaderBodHead {margin-bottom: 70px;}
+.boardOfDirectorProud .leaderBodHead p, .leadershipSection .leaderBodHead p {margin-top: 30px;}
+
+/* Accel Venture Fund */
+.proudCommuSection .sectionSubhead {margin-bottom: 80px;}
+
+/* New DevX Team */
+/* Banner Image */
+.newDevXTeam {overflow: hidden;padding: 280px 0;}
+.newDevXTeam:before{position:absolute;content:'';width:200px;height:200px;background-color:#FFB7B1;right:-100px;border-radius:100%;bottom:100px;z-index:-1;}
+.newDevXTeam:after{position:absolute;content:'';right:-20px;width:55px;height:55px;background-color:#fff;border-radius:100%;border:45px solid #74D3F9;top:40px;}
+.newDevXTeam .contentWrap{flex-direction:row-reverse;}
+.newDevXTeam .contentWrap .rightPart .bannerRightImg {padding-left: 0;position: inherit;}
+.newDevXTeam .contentWrap .leftPart{padding-left:10%;}
+.newDevXTeam .contentWrap .rightPart .bannerRightImg img {position: absolute;left: 0;top: 0;width: 50%;}
+/* DevX Team Owner */
+.devxOwnerSection .mainContentPart{display:flex;align-items:center;}
+.devxOwnerSection .mainContentPart > div{width:50%;}
+.devxOwnerSection .mainContentPart .bannerHeading{font-weight:600;font-size:48px;line-height:72px;color:#222222;padding:50px 50px;}
+.devxOwnerSection .mainContentPart .topQuat{position:absolute;top:0;left:0;}
+.devxOwnerSection .mainContentPart .leftPart{position:relative;}
+.devxOwnerSection .mainContentPart .bottomQuat{position:absolute;bottom:0;right:25px;}
+.devxOwnerSection .mainContentPart .rightPart{padding-left:34px;}
+.devxOwnerSection .mainContentPart .rightPart p{margin-bottom:25px;}
+.devxOwnerSection .mainContentPart .rightPart p:last-child{margin-bottom:0;}
+.devxOwnerSection .mainOwnerPage {display: flex;margin-top: 80px;}
+.newBodTeamPage {padding-top: 0 !important;margin-bottom: 30px;}
+/* DevX Team */
+.newDevxEmplPhoto{padding-bottom:100px;}
+.newDevxEmplPhoto .leaderBodHead .secSubhead {margin-bottom: 20px;}
+.newDevxEmplPhoto .leaderBodHead{margin-bottom:70px;}
+.newDevxEmplPhoto .communityMain{display:flex;flex-wrap:wrap;justify-content: center;}
+.newDevxEmplPhoto .communityMain .communityBox{width:calc(100% / 4 - 12px);margin:6px 6px;}
+.newDevxEmplPhoto .communityMain .communityBox .communityImag {display: flex;align-items: center;justify-content: center;}
+
+@media (min-width:1921px){
+    .newDevXTeam {height: 100vh;}
+}
+
+@media(max-width:1500px){
+    .newDevXTeam {padding: 150px 0;}
+    .newDevXTeam .contentWrap .leftPart {padding-left: 7%;}
+    .newDevXTeam:before {bottom: 0;}
+    .devxOwnerSection .mainContentPart .bannerHeading {font-size: 40px;line-height: 60px;}
+}
+
+@media(max-width:1279px){
+    .proudCommuSection, .devxOwnerSection{padding-top:60px;padding-bottom:60px;}
+    .proudCommuSection .communityMain .communityBox .communityImag .linkedInIcon {opacity: 1;}
+
+    /* Accel Individual Investors Page */
+    .proudCommuSection .communityMain .communityBox .communityImag img {width: 100%;}
+    .accelIndiInvestorProudCommSection .communityMain .communityBox {margin: 0 30px 20px;}
+    .accelIndiInvestorProudCommSection .communityMain .communityBox .communityImag {margin-bottom: 0;}
+
+    /* Board of Directors Page */
+    .boardOfDirectorProud .communityMain {width: 100%;}
+    .boardOfDirectorProud .communityMain .communityBox p br {display: none;}
+    .boardOfDirectorProud .communityMain .communityBox .communityImag {margin-bottom: 25px;}
+
+    /* DevX Team */
+    .newDevXTeam {padding: 120px 0;}
+    .newDevXTeam:before {width: 100px;height: 100px;right: -50px;bottom: 70px;}
+    .newDevXTeam:after {width: 30px;height: 30px;border: 20px solid #74D3F9;}
+    .newDevxEmplPhoto {padding-bottom: 60px;}
+    .devxOwnerSection .mainContentPart .bannerHeading {font-size: 35px;line-height: 50px;}
+    .newDevxEmplPhoto .leaderBodHead p br {display: none;}
+    .newDevxEmplPhoto .leaderBodHead {margin-bottom: 50px;}
+}
+
+@media(max-width:1023px){
+    .proudCommuSection, .devxOwnerSection{padding-top:30px;padding-bottom:30px;}
+    .proudCommuSection .communityMain .communityBox {width: calc(100% / 3 - 30px);margin: 0 15px 30px;}
+    .proudCommuSection .communityMain .communityBox:last-child {margin-top: 30px;}
+
+    /* DevX Team */
+    .newDevXTeam {padding: 40px 0;}
+    .devxOwnerSection .mainContentPart .bannerHeading{font-size:30px;line-height:41px;padding:0;}
+    .devxOwnerSection .mainContentPart .topQuat{top:-50px;}
+    .devxOwnerSection .mainContentPart .bottomQuat{bottom:-50px;}
+    .newDevxEmplPhoto .leaderBodHead {margin-bottom: 30px;}
+    .newDevxEmplPhoto {padding-bottom: 30px;}
+    .devxOwnerSection .mainOwnerPage {margin-top: 30px;}
+}
+
+@media(max-width:767px){
+    .proudCommuSection .communityMain .communityBox {width: calc(100% / 2 - 30px);}
+    .proudCommuSection .communityMain .communityBox:nth-last-child(2) {margin-top: 30px;}
+    
+    .accelIndiInvestorProudCommSection .communityMain .communityBox {margin: 0 15px 0px;}
+
+    /* Accel Venture Fund */
+    .proudCommuSection .sectionSubhead {margin-bottom: 80px;}
+
+    /* DevX Team */
+    .newDevXTeam:before, .newDevXTeam:after{display: none;}
+    .devxOwnerSection .mainContentPart > div{width:100%;}
+    .devxOwnerSection .mainContentPart{flex-wrap:wrap;}
+    .devxOwnerSection .mainContentPart .rightPart{padding-left:0;}
+    .devxOwnerSection .mainContentPart .leftPart {padding-top: 30px;padding-bottom: 35px;}
+    .devxOwnerSection .mainContentPart .topQuat{top:0;}
+    .devxOwnerSection .mainContentPart .bottomQuat{bottom:1px;right:0;}
+    .devxOwnerSection .mainContentPart .rightPart p{margin-bottom:15px;}
+    .devxOwnerSection .mainContentPart .topQuat, .devxOwnerSection .mainContentPart .bottomQuat {width: 10%;}
+    .newDevxEmplPhoto .leaderBodHead .secSubhead {margin-bottom: 15px;}
+}
+
+@media(max-width:567px){
+    .proudCommuSection .communityMain .communityBox .commuPost{font-size:16px;}
+    .proudCommuSection .communityMain .communityBox:last-child{margin-bottom:0 !important;}
+    .proudCommuSection .communityMain .communityBox .communityImag .linkedInIcon img{width:80% !important;}
+    .proudCommuSection .communityMain .communityBox .communityImag .linkedInIcon a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;bottom:40px;}
+    .proudCommuSection .communityMain .communityBox .communityImag .linkedInIcon{bottom:15px;}
+
+    .devxOwnerSection .mainContentPart {text-align: center;}
+    .boardOfDirectorProud .communityMain .communityBox{width:100%;margin-bottom:40px !important;}
+    .boardOfDirectorProud .communityMain .communityBox .communityImag img{width:100% !important;-o-object-fit:cover !important;object-fit:cover !important;}
+    .boardOfDirectorProud .communityMain .communityBox .communityImag {height: auto;}
+    .boardOfDirectorProud .leaderBodHead,.leadershipSection .leaderBodHead{margin-bottom:30px;}
+    .boardOfDirectorProud .leaderBodHead p,.leadershipSection .leaderBodHead p{margin-top:15px;}
+    .boardOfDirectorProud .container .communityMain .communityBox .communityImag img {width: auto !important;}
+    .boardOfDirectorProud .communityMain .communityBox .communityImag {margin-bottom: 15px;}
+
+    .accelIndiInvestorProudCommSection .communityMain .communityBox{margin:5px 15px 30px !important;}
+    .accelIndiInvestorProudCommSection .communityMain .communityBox .communityImag img{width:100% !important;}
+    .accelIndiInvestorProudCommSection .communityMain .communityBox .communityImag {height: 160px;}
+
+    .leadershipSection .communityMain .communityBox .communityImag img{width:100% !important;}
+    .leadershipSection .communityMain .communityBox .communityImag{height:150px;}    
+    .leadershipSection .communityMain .communityBox{margin:10px 15px !important;}
+    .leadershipSection .communityMain .communityBox .communityImag {height: auto;margin-bottom: 10px;}
+
+    
+
+    /* DevX Team */
+    .newDevXTeam{padding-top:0;padding-bottom: 10px;}
+    .newDevXTeam .contentWrap .rightPart .bannerRightImg img{width:100%;position:initial;}
+    .newDevXTeam .contentWrap{flex-direction:column-reverse;}
+    .newDevXTeam .contentWrap .leftPart {padding-left: 15px;padding-right: 15px;margin-top: 30px;}
+    .newDevXTeam .container {padding-left: 0;padding-right: 0;}
+    .newDevxEmplPhoto .communityMain .communityBox {width: calc(100% / 3 - 12px);}
+    .devxOwnerSection .mainContentPart .bannerHeading {font-size: 24px;line-height: 35px;padding: 0;}
+    .newBodTeamPage .communityMain .communityBox .communityImag {height: 210px !important;}
+}
+
+@media(max-width:374px){
+    .devxOwnerSection .mainContentPart .leftPart {padding-bottom: 25px;}
+    .devxOwnerSection .mainContentPart .bottomQuat {bottom: 10px;}
+}

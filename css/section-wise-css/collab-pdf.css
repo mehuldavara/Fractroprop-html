@@ -1,0 +1,67 @@
+html { -webkit-print-color-adjust: exact; }
+.collagPdfPage{background:white;display:block;margin:0 auto;}
+.pdfContainer {margin-left: 28px;margin-right: 28px;}
+.pdfPageSection {background-color: #fff;}
+
+/* Logo Part */
+.pdfPageSection .logoSection{padding-top: 30px;padding-bottom: 20px;}
+.pdfPageSection .logoSection .pdfLogo {display: block;text-align: right;}
+.pdfPageSection .logoSection .pdfLogo img {width: 92px;vertical-align: middle;}       
+
+    /* Banner */
+.pdfClientDetail .clientBgImg{display:inline-block;width: 100%;}
+.pdfClientDetail .clientBgImg img{vertical-align:middle;}
+.pdfClientDetail {position: relative;padding-top: 100px;}
+.pdfClientDetail .pdfContentDetail{background:#1F627C;-webkit-box-shadow:0px 0px 20px rgba(0,0,0,0.05);box-shadow:0px 0px 20px rgba(0,0,0,0.05);padding:135px 26px 20px;width:300px;position:absolute;top:0;height: 464px;}
+.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap .detailBox{width:calc(100% / 2 - 0px);margin:10px 0;}
+.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap .detailBox:last-child{width:100%;}
+.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap .detailBox .detailsHead{color:#FFFFFF;font-weight:500;font-size:11px;line-height:16px;}
+.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap .detailBox .detailsContent{font-weight:bold;font-size:14px;line-height:21px;color:#FFFFFF;}
+.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap .detailBox:first-child,.pdfClientDetail .pdfContentDetail .clientDetails .detailsWrap .detailBox:nth-child(2){width:100%;}
+.pdfClientDetail .pdfContentDetail .contentHead{font-weight:600;font-size:36px;line-height:64px;color:#FFFFFF;position:absolute;left:-48px;top:30px;width:409px;height:92px;background:rgb(239 155 39);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+
+/* Lay Out Part */
+.layOutPart {position: relative;}
+.layOutPart .layOutImg {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);padding: 20px;background-color: #fff;}
+
+/* 3D View */
+.threeDviewPart {position: relative;}
+.threeDviewPart .threeDviewWrap {background: #FFFFFF;-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);padding: 20px;}
+.threeDviewPart .threeDviewWrap .fullImga {display: -webkit-box;display: -ms-flexbox;display: flex;margin-bottom: 15px;}
+.threeDviewPart .threeDviewWrap .twoPartImg{display:-webkit-box;display:-ms-flexbox;display:flex;width: 100%;}
+.threeDviewPart .threeDviewWrap .twoPartImg .halfImg{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:15px;width: 100%;}
+.threeDviewPart .threeDviewWrap .twoPartImg .halfImg:last-child{margin-bottom:0;}
+.threeDviewPart .threeDviewWrap .twoPartImg .leftImgPart {margin-right: 15px;width: calc(45% - -2px);}
+.threeDviewPart .threeDviewWrap .twoPartImg .rightImgPart {width: 57%;}
+
+/* Modern THeme */
+.modernThemePdfPart {position: relative;}
+.modernThemePdfPart .modernThemeWrap {background: #FFFFFF;-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);padding: 20px;}
+.modernThemePdfPart .modernThemeWrap .fullImga {display: -webkit-box;display: -ms-flexbox;display: flex;margin-top: 15px;}
+.modernThemePdfPart .modernThemeWrap .twoPartImg{display:-webkit-box;display:-ms-flexbox;display:flex;width: 100%;}
+.modernThemePdfPart .modernThemeWrap .twoPartImg .halfImg{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:15px;width: 100%;}
+.modernThemePdfPart .modernThemeWrap .twoPartImg .halfImg:last-child{margin-bottom:0;}
+.modernThemePdfPart .modernThemeWrap .twoPartImg .leftImgPart {margin-right: 15px;width: calc(45% - -2px);}
+.modernThemePdfPart .modernThemeWrap .twoPartImg .rightImgPart {width: 57%;}
+
+/* Thank You */
+.thankYouPdfPart {margin-bottom: 300px;margin-top: 100px;}
+.thankYouPdfPart .thankHead{font-weight:600;font-size:48px;line-height:64px;color:#222222;position:relative;margin-bottom:30px;padding-bottom:20px;}
+.thankYouPdfPart .thankHead:before{position:absolute;content:'';left:0;bottom:0;height:5px;background-color:#EF9B27;width:124px;}
+
+/* Text Footer */
+.textFooterPdf{background-color:#1F627C;margin-top:-50px;padding:100px 0 40px;}
+.textFooterPdf .bigText{font-weight:600;font-size:64px;line-height:64px;color:#FFFFFF;text-transform:uppercase;text-align:center;}
+.textFooterPdf .ownerDetails{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;padding-top:60px;padding-bottom:60px;margin-top:50px;}
+.textFooterPdf .ownerDetails .ownerName{font-weight:600;font-size:18px;line-height:24px;color:#FFFFFF;margin-bottom: 10px;}
+.textFooterPdf .ownerDetails .ownerNumber{font-weight:500;font-size:14px;line-height:24px;color:#ffffff;}
+.textFooterPdf .ownerDetails .ownerEmail{font-weight:500;font-size:14px;line-height:24px;color:#ffffff;text-decoration: underline;}
+.textFooterPdf .ownerDetails ul li {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+.textFooterPdf .ownerDetails ul li a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-decoration:underline;font-weight:500;font-size:12px;line-height:24px;color:#FFFFFF;}
+.textFooterPdf .ownerDetails ul li .socialImg{margin-right:10px;}
+.textFooterPdf .ownerDetails:before{position:absolute;content:'';top:0;left:0;right:0;width:100%;height:1px;background-color:#ffffff;opacity:0.2;}
+.textFooterPdf .ownerDetails:after{position:absolute;content:'';bottom:0;left:0;right:0;width:100%;height:1px;background-color:#ffffff;opacity:0.2;}
+
+
+/* Thanks */

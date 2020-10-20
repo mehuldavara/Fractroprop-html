@@ -1,0 +1,34 @@
+.wfmWorkPodsSection{padding-top: 100px;padding-bottom: 100px;}
+.wfmWorkPodsSection .workPodWrap .workPodIcon{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right: 20px;}
+.wfmWorkPodsSection .workPodWrap .workPodSubHead{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;margin-bottom: 20px;}
+.wfmWorkPodsSection .workPodWrap .workPodsBox{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom: 40px;}
+.wfmWorkPodsSection .workPodWrap .workPodsBox:last-child {margin-bottom: 0;}
+.wfmWorkPodsSection .workPodMainWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top: 50px;}
+.wfmWorkPodsSection .workPodMainWrap > div{width:calc(100% / 3 - 0px);}
+.wfmWorkPodsSection .workPodMainWrap .centerPart .workPadCenterImg{display:-webkit-box;display:-ms-flexbox;display:flex;width:70%;margin:auto;}
+.wfmWorkPodsSection .workPodWrap .workPodSubHead .workPodHead {font-weight: 500;font-size: 18px;line-height: 27px;color: #222222;}
+
+@media(max-width:1279px){
+    .wfmWorkPodsSection {padding-top: 60px;padding-bottom: 60px;}
+}
+
+@media(max-width:1023px){    
+    .wfmWorkPodsSection .workPodMainWrap {padding-top: 10px;}
+    .wfmWorkPodsSection {padding-top: 30px;padding-bottom: 30px;}
+    .wfmWorkPodsSection .workPodMainWrap > div {width: 100% !important;}
+    .wfmWorkPodsSection .workPodWrap .workPodSubHead {margin-bottom: 10px;}
+    .wfmWorkPodsSection .workPodWrap .workPodsBox {margin-bottom: 25px;}
+    .wfmWorkPodsSection .workPodMainWrap .centerPart {margin-top: 30px;margin-bottom: 20px;}
+    .wfmWorkPodsSection .workPodMainWrap .centerPart .workPadCenterImg {width: 40%;}
+    .wfmWorkPodsSection .workPodWrap .workPodsBox .workPodContent p {height: inherit !important;}
+}
+
+@media(max-width:767px){
+    .wfmWorkPodsSection .workPodMainWrap > div {width: 100%;}
+    .wfmWorkPodsSection .workPodMainWrap .centerPart {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;margin-bottom: 30px;margin-top: 0;}
+    .wfmWorkPodsSection .workPodMainWrap .leftPart {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;}
+    .wfmWorkPodsSection .workPodMainWrap .rightPart {-webkit-box-ordinal-group: 4;-ms-flex-order: 3;order: 3;margin-top: 30px;}
+    .wfmWorkPodsSection .workPodWrap .workPodsBox {margin-bottom: 30px;}
+    .wfmWorkPodsSection .workPodWrap .workPodSubHead {margin-bottom: 10px;}
+    .wfmWorkPodsSection .workPodMainWrap .centerPart .workPadCenterImg {width: 60%;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+}
