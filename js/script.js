@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+    // Toggle Menu
+    $(".siteHeader .headerMenu .menu-handler").click(function(){
+        $(this).toggleClass('toggleActive');
+        $(".siteHeader .headerWrap .headerMenu ul").toggleClass('active');
+        $(".siteHeader .headerWrap .headerMenu ul").slideToggle('active');
+    });
     
     // Site Equal Height Jquery
     equalize = function(container){
@@ -27,5 +34,23 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1
     });
+
+    window.onscroll = function(){
+        myFunction();
+    }
+
+    let header = document.getElementById("myHeader");
+    sticky = header.offsetTop;
+
+    function myFunction(){
+        if(window.pageYOffset>sticky){
+            header.classList.add("headerSticky");
+        }else{
+            header.classList.remove("headerSticky");
+        }
+    }
+
+
+    
     
 });
