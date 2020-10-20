@@ -27,7 +27,8 @@ a {color: #565267;}
 .siteHeader .headerWrap .headerMenu ul{display:flex;align-items:center;flex-wrap:wrap;}
 .siteHeader .headerWrap .headerMenu ul li {margin-left: 50px;}
 .siteHeader .headerWrap .headerMenu ul li:first-child{margin-left: 0;}
-.siteHeader .headerWrap .headerMenu ul li a {color: #000000;}
+.siteHeader .headerWrap .headerMenu ul li a {color: #000000;transition: .5s all;}
+.siteHeader .headerWrap .headerMenu ul li.active a, .siteHeader .headerWrap .headerMenu ul li a:hover {color: #249f8d;}
 .siteHeader.headerSticky{animation-duration:1s;transition:all 0.5s;animation-name:headerDown;padding:10px 0;}
 @keyframes headerDown {0% {transform: translate3d(0px, -100%, 0px);}100% {transform: translate3d(0px, 0px, 0px);}}
 

@@ -35,6 +35,8 @@ $(document).ready(function(){
         slidesToScroll: 1
     });
 
+
+    // Sticky Header
     window.onscroll = function(){
         myFunction();
     }
@@ -50,7 +52,12 @@ $(document).ready(function(){
         }
     }
 
-
+    // $(".siteHeader .headerWrap .headerMenu ul li").click(function(){		
+	// 	$(this).addClass("active");
+    //     $(this).siblings().removeClass("active");
+    // });
     
     
 });
+
+
