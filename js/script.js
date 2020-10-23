@@ -51,12 +51,6 @@ $(document).ready(function(){
             header.classList.remove("headerSticky");
         }
     }
-
-    // $(".siteHeader .headerWrap .headerMenu ul li").click(function(){		
-	// 	$(this).addClass("active");
-    //     $(this).siblings().removeClass("active");
-    // });
-    
     
 });
 
