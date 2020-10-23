@@ -1,5 +1,16 @@
 $(document).ready(function(){
 
+    // Smooth Scroll
+    $('.nav li a').click(function(){
+        $(".active").removeClass("active");     
+        $(this).addClass("active");
+        
+        $('html, body').stop().animate({
+        scrollTop: $($(this).attr('href')).offset().top - 80
+        }, 500);
+        return false;
+    });
+
     // Toggle Menu
     $(".siteHeader .headerMenu .menu-handler").click(function(){
         $(this).toggleClass('toggleActive');
@@ -34,7 +45,6 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1
     });
-
 
     // Sticky Header
     window.onscroll = function(){
